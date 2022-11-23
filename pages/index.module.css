@@ -1,0 +1,33 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.jokesButton {
+  margin-top: 1rem;
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  border: none;
+  background-color: #7c3aed;
+  color: #fff;
+  cursor: pointer;
+}
+
+.jokesButton:hover {
+  background: #6d28d9;
+}
+
+.jokesBox {
+  background-color: #f9fafb;
+  min-height: 7.5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
