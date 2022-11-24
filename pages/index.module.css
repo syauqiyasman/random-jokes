@@ -27,7 +27,13 @@
 
 .jokesBox {
   background-color: #f9fafb;
-  min-height: 7.5rem;
+  min-height: 12.5rem;
   padding: 1rem;
   border-radius: .5rem;
+}
+
+@media (min-width: 720px) {
+  .jokesBox {
+    min-height: 10rem;
+  }
 }
