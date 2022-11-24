@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="robots" content="noindex,nofollow" />
+        <title>Random Jokes Generator</title>
       </Head>
       <Component {...pageProps} />
     </>
