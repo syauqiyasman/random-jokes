@@ -11,8 +11,13 @@
   margin: 1rem;
 }
 
-.jokesButton {
+.buttonGroup {
   margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jokesButton {
   padding: .75rem 1.5rem;
   border-radius: .5rem;
   border: none;
@@ -23,6 +28,24 @@
 
 .jokesButton:hover {
   background: #6d28d9;
+}
+
+.historyButton {
+  display: flex;
+}
+
+.undoButton {
+  height: 100%;
+  width: 2rem;
+  margin-right: .25rem;
+  display: block;
+}
+
+.redoButton {
+  height: 100%;
+  width: 2rem;
+  display: block;
+  transform: scaleX(-1);
 }
 
 .jokesBox {
